@@ -2,9 +2,13 @@ package com.example.travelmateapp
 
 import android.Manifest
 import android.content.pm.PackageManager
+import android.location.Address
+import android.location.Geocoder
 import android.location.Location
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.EditText
+import android.widget.Toast
 import androidx.core.app.ActivityCompat
 
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -17,7 +21,9 @@ import com.example.travelmateapp.databinding.ActivityMapsBinding
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.model.Marker
+import java.io.IOException
 
+@Suppress("DEPRECATION")
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
 
     private lateinit var mMap: GoogleMap
@@ -78,7 +84,35 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
 
     }
 
+
+    // Fonction qui se déclenche lors d'un clic sur un marqueur
     override fun onMarkerClick(p0: Marker): Boolean = false
+
+
+    // Recherche une ville rentrée dans la barre de recherche
+    fun searchLocation() {
+        val locationSearch: EditText = findViewById(R.id.et_search)
+        val location: String = locationSearch.text.toString().trim()
+        var addressList: List<Address>? = null
+
+        if(location == ""){
+            Toast.makeText(this, "Veuillez saisir une localisation s'il vous plait", Toast.LENGTH_SHORT).show()
+        }else{
+            val geoCoder = Geocoder(this)
+            try {
+                addressList = geoCoder.getFromLocationName(location,1)
+            }catch (e: IOException){
+                e.printStackTrace()
+            }
+            val address =  addressList!![0]
+            val latLng = LatLng(address.latitude, address.longitude)
+            mMap.addMarker(MarkerOptions().position(latLng).title(location))
+            mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng))
+        }
+    }
+
+
+
 
 }
 
