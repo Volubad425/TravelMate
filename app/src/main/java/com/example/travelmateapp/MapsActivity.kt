@@ -5,23 +5,26 @@ import android.content.pm.PackageManager
 import android.location.Address
 import android.location.Geocoder
 import android.location.Location
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-
-import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.OnMapReadyCallback
-import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
 import com.example.travelmateapp.databinding.ActivityMapsBinding
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.GoogleMap.OnCameraMoveListener
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.CameraPosition
+import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
+import com.google.android.gms.maps.model.MarkerOptions
 import java.io.IOException
+
 
 @Suppress("DEPRECATION")
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
@@ -46,14 +49,29 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
         mapFragment.getMapAsync(this)
 
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
+
     }
 
-    //Désactive les commandes de zoom et appelle la fonction setUpMap.
+    //Désactive les commandes de zoom et appelle la fonction setUpMap + Change vers mode satellite lors du zoom.
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
         mMap.uiSettings.isZoomControlsEnabled = true
         mMap.setOnMarkerClickListener(this)
+       // mMap.mapType = GoogleMap.MAP_TYPE_SATELLITE
+        mMap.setOnCameraMoveListener(OnCameraMoveListener {
+            val cameraPosition: CameraPosition = mMap.getCameraPosition()
+            if (cameraPosition.zoom > 18.0) {
+                if (mMap.getMapType() !== GoogleMap.MAP_TYPE_HYBRID) {
+                    mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID)
+                }
+            } else {
+                if (mMap.getMapType() !== GoogleMap.MAP_TYPE_NORMAL) {
+                    mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL)
+                }
+            }
+        })
         setUpMap()
+
     }
 
     // Vérifie si les permissions sont accordées et déplace la caméra vers la ville localisée
@@ -90,7 +108,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
 
 
     // Recherche une ville rentrée dans la barre de recherche
-    fun searchLocation() {
+    fun searchLocation(view: View) {
         val locationSearch: EditText = findViewById(R.id.et_search)
         val location: String = locationSearch.text.toString().trim()
         var addressList: List<Address>? = null
