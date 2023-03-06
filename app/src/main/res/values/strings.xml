@@ -14,4 +14,13 @@
     <string name="new_mdp">Nouveau mot de passe</string>
     <string name="reset_password">Réinitialiser le mot de passe</string>
     <string name="todo">todo</string>
+    <string name="mail_vide">Veuillez renseigner votre adresse mail</string>
+    <string name="password_vide">Veuillez renseigner un mot de passe</string>
+    <string name="non_compte">Le compte n\'existe pas</string>
+    <string name="pseudo_vide">Veuillez ajouter un nom d\'utilisateur</string>
+    <string name="pseudo_trop_long">Veuillez choisir un nom d\'utilisateur avec moins de caractères</string>
+    <string name="mail_invalide">Renseigner un mail valide</string>
+    <string name="password_trop_court">Votre mot de passe est trop court</string>
+    <string name="password_confirm_invalide">Les deux mot de passes ne sont pas identiques</string>
+    <string name="inscription_reussie">Inscription réussie</string>
 </resources>

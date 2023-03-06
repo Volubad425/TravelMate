@@ -4,21 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_home">
-
-    <ImageView
-        android:visibility="gone"
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:adjustViewBounds="true"
-        android:background="@drawable/bg_home"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/todo"/>
-
+    android:background="@drawable/bg_home"
+    tools:context=".HomeActivity">
 
     <androidx.cardview.widget.CardView
         style="@style/cardviewBouton"
@@ -29,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/se_connecter"
+            android:id="@+id/seConnecter"
             style="@style/buttonPerso"
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -47,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/changerMdp"
+            android:id="@+id/sInscrire"
             style="@style/buttonPerso"
             android:layout_width="match_parent"
             android:layout_height="40dp"

@@ -34,11 +34,13 @@
             app:layout_constraintTop_toBottomOf="@+id/textView">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/ProfilePseudo"
+                android:id="@+id/pseudo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:hint="@string/pseudo"
+                android:textColor="@color/white"
+                android:maxLength="20"
                 android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -46,7 +48,7 @@
             android:id="@+id/input_mail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/input_pseudo">
@@ -57,6 +59,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:hint="@string/adresse_mail"
+                android:textColor="@color/white"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -64,16 +67,18 @@
             android:id="@+id/input_mdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/input_mail">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:hint="@string/mdp"
+                android:textColor="@color/white"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -81,21 +86,23 @@
             android:id="@+id/input_conf_mdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:textColorHint="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/input_mdp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordConfirm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:hint="@string/conf_mdp"
+                android:textColor="@color/white"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cv_changer_mdp"
+            android:id="@+id/cv_inscripiton"
             style="@style/cardviewBouton"
             android:layout_width="match_parent"
             android:layout_marginTop="20dp"
@@ -105,7 +112,7 @@
             app:layout_constraintTop_toBottomOf="@+id/input_conf_mdp">
 
             <Button
-                android:id="@+id/changerMdp"
+                android:id="@+id/btnInsription"
                 style="@style/buttonPerso"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
