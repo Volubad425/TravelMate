@@ -3,4 +3,15 @@
     <string name="title_activity_maps">MapsActivity</string>
     <string name="connecter">Se connecter</string>
     <string name="inscrire">S\'inscrire</string>
+    <string name="connection">Connexion</string>
+    <string name="mdp_oublie">Mot de passe oublié ?</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="adresse_mail">Adresse mail</string>
+    <string name="pseudo">Nom d\'utilisateur</string>
+    <string name="conf_mdp">Confirmer le mot de passe</string>
+    <string name="inscription">Inscription</string>
+    <string name="change_mdp">Changer le mot de passe</string>
+    <string name="new_mdp">Nouveau mot de passe</string>
+    <string name="reset_password">Réinitialiser le mot de passe</string>
+    <string name="todo">todo</string>
 </resources>
