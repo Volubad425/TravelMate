@@ -23,4 +23,5 @@
     <string name="password_trop_court">Votre mot de passe est trop court</string>
     <string name="password_confirm_invalide">Les deux mot de passes ne sont pas identiques</string>
     <string name="inscription_reussie">Inscription réussie</string>
+    <string name="mdp_change">Changé !</string>
 </resources>

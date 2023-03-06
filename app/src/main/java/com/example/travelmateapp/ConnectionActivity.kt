@@ -10,6 +10,7 @@ import com.example.travelmateapp.databinding.ActivityConnectionBinding
 class ConnectionActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityConnectionBinding
+    private val pass = "a"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,7 +30,7 @@ class ConnectionActivity : AppCompatActivity() {
             else if(mdp.isEmpty()){
                 Toast.makeText(this, R.string.password_vide, Toast.LENGTH_SHORT).show()
             }
-            else if (mdp == "a" && mail == "a"){
+            else if (mdp == pass && mail == pass){
                 val intent = Intent(this, MapsActivity::class.java)
                 startActivity(intent)
             }
