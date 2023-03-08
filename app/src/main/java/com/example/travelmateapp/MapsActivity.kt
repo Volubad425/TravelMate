@@ -118,14 +118,22 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
         }else{
             val geoCoder = Geocoder(this)
             try {
-                addressList = geoCoder.getFromLocationName(location,1)
+                addressList = geoCoder.getFromLocationName(location,5)
             }catch (e: IOException){
                 e.printStackTrace()
             }
-            val address =  addressList!![0]
-            val latLng = LatLng(address.latitude, address.longitude)
-            mMap.addMarker(MarkerOptions().position(latLng).title(location))
-            mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng))
+
+            if (addressList != null) {
+                for(i in addressList.indices){
+                    val address =  addressList!![i]
+                    val latLng = LatLng(address.latitude, address.longitude)
+                    mMap.addMarker(MarkerOptions().position(latLng).title(location))
+                    mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng))
+
+                }
+
+            }
+
         }
     }
 
