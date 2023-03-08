@@ -6,7 +6,8 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MapsActivity">
+    tools:context=".MapsActivity"
+    tools:layout="@layout/activity_maps">
 
 
     <LinearLayout
@@ -29,24 +30,7 @@
             android:onClick="searchLocation"
             android:text="Search"/>
 
-        <Button
-            android:id="@+id/buttonID"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="On fait quoi aujourd'hui"
-            android:backgroundTint="@color/black"
-            android:textColor="@color/white"
-            android:layout_marginTop="20dp"
-            tools:ignore="MissingConstraints,UnknownId" />
-        
-
     </LinearLayout>
-
-
-
-
-
-
 
 </fragment>
 
