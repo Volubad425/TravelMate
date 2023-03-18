@@ -4,7 +4,7 @@
             "outputFile": "com.example.travelmateapp-mergeDebugResources-30:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sadiy\\.gradle\\caches\\transforms-3\\5a823485f5f258862cc8663b103dc1a5\\transformed\\material-1.8.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\ndstj\\.gradle\\caches\\transforms-3\\5a823485f5f258862cc8663b103dc1a5\\transformed\\material-1.8.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,10",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sadiy\\.gradle\\caches\\transforms-3\\2904784194112d68f97be9534f7e502f\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\ndstj\\.gradle\\caches\\transforms-3\\2904784194112d68f97be9534f7e502f\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

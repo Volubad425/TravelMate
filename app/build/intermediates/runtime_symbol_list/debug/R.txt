@@ -2777,6 +2777,7 @@ int drawable design_password_eye 0x7f070098
 int drawable design_snackbar_background 0x7f070099
 int drawable googleg_disabled_color_18 0x7f07009a
 int drawable googleg_standard_color_18 0x7f07009b
+int drawable hotel 0x7f0700f4
 int drawable ic_arrow_back_black_24 0x7f07009c
 int drawable ic_clear_black_24 0x7f07009d
 int drawable ic_clock_black_24dp 0x7f07009e
@@ -2791,6 +2792,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f0700a6
 int drawable ic_mtrl_chip_checked_circle 0x7f0700a7
 int drawable ic_mtrl_chip_close_circle 0x7f0700a8
 int drawable ic_search_black_24 0x7f0700a9
+int drawable loisir 0x7f0700f5
 int drawable m3_appbar_background 0x7f0700aa
 int drawable m3_avd_hide_password 0x7f0700ab
 int drawable m3_avd_show_password 0x7f0700ac
@@ -2862,6 +2864,9 @@ int drawable notification_template_icon_bg 0x7f0700ed
 int drawable notification_template_icon_low_bg 0x7f0700ee
 int drawable notification_tile_bg 0x7f0700ef
 int drawable notify_panel_notification_icon_bg 0x7f0700f0
+int drawable panier 0x7f0700f6
+int drawable parc 0x7f0700f7
+int drawable serveur 0x7f0700f8
 int drawable test_level_drawable 0x7f0700f1
 int drawable tooltip_frame_dark 0x7f0700f2
 int drawable tooltip_frame_light 0x7f0700f3
@@ -3080,6 +3085,7 @@ int id home 0x7f0800d3
 int id homeAsUp 0x7f0800d4
 int id honorRequest 0x7f0800d5
 int id horizontal_only 0x7f0800d6
+int id hotelbtn 0x7f0801f7
 int id hybrid 0x7f0800d7
 int id icon 0x7f0800d8
 int id icon_group 0x7f0800d9
@@ -3109,6 +3115,7 @@ int id line3 0x7f0800f0
 int id linear 0x7f0800f1
 int id listMode 0x7f0800f2
 int id list_item 0x7f0800f3
+int id loisirbtn 0x7f0801f8
 int id m3_side_sheet 0x7f0800f4
 int id map 0x7f0800f5
 int id marquee 0x7f0800f6
@@ -3196,6 +3203,7 @@ int id outward 0x7f080147
 int id overshoot 0x7f080148
 int id packed 0x7f080149
 int id parallax 0x7f08014a
+int id parcbtn 0x7f0801f9
 int id parent 0x7f08014b
 int id parentPanel 0x7f08014c
 int id parentRelative 0x7f08014d
@@ -3214,6 +3222,7 @@ int id progress_horizontal 0x7f080159
 int id radio 0x7f08015a
 int id ratio 0x7f08015b
 int id rectangles 0x7f08015c
+int id restaurantbtn 0x7f0801fa
 int id reverseSawtooth 0x7f08015d
 int id right 0x7f08015e
 int id rightToLeft 0x7f08015f
@@ -3261,6 +3270,7 @@ int id selected 0x7f080188
 int id selection_type 0x7f080189
 int id sharedValueSet 0x7f08018a
 int id sharedValueUnset 0x7f08018b
+int id shopbtn 0x7f0801fb
 int id shortcut 0x7f08018c
 int id showCustom 0x7f08018d
 int id showHome 0x7f08018e
@@ -3476,6 +3486,9 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_maps 0x7f0b001c
+int layout activity_schedule 0x7f0b006a
+int layout activity_schedule_case 0x7f0b006b
+int layout activity_temporaire 0x7f0b006c
 int layout custom_dialog 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e
 int layout design_bottom_sheet_dialog 0x7f0b001f

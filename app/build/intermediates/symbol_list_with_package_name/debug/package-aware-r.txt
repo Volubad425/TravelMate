@@ -2778,6 +2778,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable hotel
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -2792,6 +2793,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable loisir
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -2863,6 +2865,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable panier
+drawable parc
+drawable serveur
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3081,6 +3086,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id hotelbtn
 id hybrid
 id icon
 id icon_group
@@ -3110,6 +3116,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loisirbtn
 id m3_side_sheet
 id map
 id marquee
@@ -3197,6 +3204,7 @@ id outward
 id overshoot
 id packed
 id parallax
+id parcbtn
 id parent
 id parentPanel
 id parentRelative
@@ -3215,6 +3223,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id restaurantbtn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3262,6 +3271,7 @@ id selected
 id selection_type
 id sharedValueSet
 id sharedValueUnset
+id shopbtn
 id shortcut
 id showCustom
 id showHome
@@ -3477,6 +3487,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_maps
+layout activity_schedule
+layout activity_schedule_case
+layout activity_temporaire
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -4,6 +4,7 @@ package com.example.travelmateapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,9 +22,31 @@ public final class ActivityMapsBinding implements ViewBinding {
   @NonNull
   public final EditText etSearch;
 
-  private ActivityMapsBinding(@NonNull View rootView, @NonNull EditText etSearch) {
+  @NonNull
+  public final Button hotelbtn;
+
+  @NonNull
+  public final Button loisirbtn;
+
+  @NonNull
+  public final Button parcbtn;
+
+  @NonNull
+  public final Button restaurantbtn;
+
+  @NonNull
+  public final Button shopbtn;
+
+  private ActivityMapsBinding(@NonNull View rootView, @NonNull EditText etSearch,
+      @NonNull Button hotelbtn, @NonNull Button loisirbtn, @NonNull Button parcbtn,
+      @NonNull Button restaurantbtn, @NonNull Button shopbtn) {
     this.rootView = rootView;
     this.etSearch = etSearch;
+    this.hotelbtn = hotelbtn;
+    this.loisirbtn = loisirbtn;
+    this.parcbtn = parcbtn;
+    this.restaurantbtn = restaurantbtn;
+    this.shopbtn = shopbtn;
   }
 
   @Override
@@ -59,7 +82,38 @@ public final class ActivityMapsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMapsBinding(rootView, etSearch);
+      id = R.id.hotelbtn;
+      Button hotelbtn = ViewBindings.findChildViewById(rootView, id);
+      if (hotelbtn == null) {
+        break missingId;
+      }
+
+      id = R.id.loisirbtn;
+      Button loisirbtn = ViewBindings.findChildViewById(rootView, id);
+      if (loisirbtn == null) {
+        break missingId;
+      }
+
+      id = R.id.parcbtn;
+      Button parcbtn = ViewBindings.findChildViewById(rootView, id);
+      if (parcbtn == null) {
+        break missingId;
+      }
+
+      id = R.id.restaurantbtn;
+      Button restaurantbtn = ViewBindings.findChildViewById(rootView, id);
+      if (restaurantbtn == null) {
+        break missingId;
+      }
+
+      id = R.id.shopbtn;
+      Button shopbtn = ViewBindings.findChildViewById(rootView, id);
+      if (shopbtn == null) {
+        break missingId;
+      }
+
+      return new ActivityMapsBinding(rootView, etSearch, hotelbtn, loisirbtn, parcbtn,
+          restaurantbtn, shopbtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
