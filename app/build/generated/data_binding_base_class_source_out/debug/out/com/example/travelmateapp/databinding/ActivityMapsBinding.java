@@ -4,54 +4,38 @@ package com.example.travelmateapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
+import android.widget.RelativeLayout;
+import android.widget.SearchView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.travelmateapp.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMapsBinding implements ViewBinding {
   @NonNull
-  private final View rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final EditText etSearch;
+  public final BottomNavigationView bottomNav;
 
   @NonNull
-  public final Button hotelbtn;
+  public final SearchView searchBar;
 
-  @NonNull
-  public final Button loisirbtn;
-
-  @NonNull
-  public final Button parcbtn;
-
-  @NonNull
-  public final Button restaurantbtn;
-
-  @NonNull
-  public final Button shopbtn;
-
-  private ActivityMapsBinding(@NonNull View rootView, @NonNull EditText etSearch,
-      @NonNull Button hotelbtn, @NonNull Button loisirbtn, @NonNull Button parcbtn,
-      @NonNull Button restaurantbtn, @NonNull Button shopbtn) {
+  private ActivityMapsBinding(@NonNull RelativeLayout rootView,
+      @NonNull BottomNavigationView bottomNav, @NonNull SearchView searchBar) {
     this.rootView = rootView;
-    this.etSearch = etSearch;
-    this.hotelbtn = hotelbtn;
-    this.loisirbtn = loisirbtn;
-    this.parcbtn = parcbtn;
-    this.restaurantbtn = restaurantbtn;
-    this.shopbtn = shopbtn;
+    this.bottomNav = bottomNav;
+    this.searchBar = searchBar;
   }
 
   @Override
   @NonNull
-  public View getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -76,44 +60,19 @@ public final class ActivityMapsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.et_search;
-      EditText etSearch = ViewBindings.findChildViewById(rootView, id);
-      if (etSearch == null) {
+      id = R.id.bottomNav;
+      BottomNavigationView bottomNav = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNav == null) {
         break missingId;
       }
 
-      id = R.id.hotelbtn;
-      Button hotelbtn = ViewBindings.findChildViewById(rootView, id);
-      if (hotelbtn == null) {
+      id = R.id.search_bar;
+      SearchView searchBar = ViewBindings.findChildViewById(rootView, id);
+      if (searchBar == null) {
         break missingId;
       }
 
-      id = R.id.loisirbtn;
-      Button loisirbtn = ViewBindings.findChildViewById(rootView, id);
-      if (loisirbtn == null) {
-        break missingId;
-      }
-
-      id = R.id.parcbtn;
-      Button parcbtn = ViewBindings.findChildViewById(rootView, id);
-      if (parcbtn == null) {
-        break missingId;
-      }
-
-      id = R.id.restaurantbtn;
-      Button restaurantbtn = ViewBindings.findChildViewById(rootView, id);
-      if (restaurantbtn == null) {
-        break missingId;
-      }
-
-      id = R.id.shopbtn;
-      Button shopbtn = ViewBindings.findChildViewById(rootView, id);
-      if (shopbtn == null) {
-        break missingId;
-      }
-
-      return new ActivityMapsBinding(rootView, etSearch, hotelbtn, loisirbtn, parcbtn,
-          restaurantbtn, shopbtn);
+      return new ActivityMapsBinding((RelativeLayout) rootView, bottomNav, searchBar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
