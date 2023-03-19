@@ -60,7 +60,7 @@ public final class ActivityMapsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.bottomNav;
+      id = R.id.bottom_nav;
       BottomNavigationView bottomNav = ViewBindings.findChildViewById(rootView, id);
       if (bottomNav == null) {
         break missingId;

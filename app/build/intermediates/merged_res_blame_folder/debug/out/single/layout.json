@@ -1,10 +1,6 @@
 [
     {
-        "merged": "com.example.travelmateapp-mergeDebugResources-31:/layout/activity_maps.xml",
-        "source": "com.example.travelmateapp-main-34:/layout/activity_maps.xml"
-    },
-    {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-mergeDebugResources-31:\\layout\\activity_maps.xml",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-34:\\layout\\activity_maps.xml"
+        "merged": "com.example.travelmateapp-mergeDebugResources-36:/layout/activity_maps.xml",
+        "source": "com.example.travelmateapp-main-39:/layout/activity_maps.xml"
     }
 ]

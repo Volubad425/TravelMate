@@ -8,6 +8,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">TravelMateApp</string>
+    <string name="google_maps_key">AIzaSyCy8poguEHK_gbd9J1E_JAJ6pPR2Mtp9pg</string>
     <string name="title_activity_maps">Travel Mate</string>
     <style name="Theme.TravelMateApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         

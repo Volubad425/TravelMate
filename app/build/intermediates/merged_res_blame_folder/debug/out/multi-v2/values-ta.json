@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.travelmateapp-mergeDebugResources-30:/values-ta/values-ta.xml",
+            "outputFile": "com.example.travelmateapp-mergeDebugResources-35:/values-ta/values-ta.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ndstj\\.gradle\\caches\\transforms-3\\fd9ed249e6f9b6bdbcf9ab926ee4a4ed\\transformed\\core-1.9.0\\res\\values-ta\\values-ta.xml",

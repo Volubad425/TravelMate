@@ -12,10 +12,15 @@ drawable baseline_park_24
 drawable baseline_restaurant_24
 drawable baseline_shopping_cart_24
 drawable baseline_sports_basketball_24
+drawable ic_basketball
+drawable ic_hotel
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_park
+drawable ic_restaurant
+drawable ic_shopping_cart
 drawable nav_selector
-id bottomNav
+id bottom_nav
 id hotelbtn
 id loisirbtn
 id map
@@ -28,6 +33,7 @@ menu bottom_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string google_maps_key
 string title_activity_maps
 style Theme.TravelMateApp
 xml backup_rules

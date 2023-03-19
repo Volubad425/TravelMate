@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.travelmateapp-mergeDebugResources-30:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.example.travelmateapp-mergeDebugResources-35:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ndstj\\.gradle\\caches\\transforms-3\\5738dbabac5afb0ae8bc647aac563bc7\\transformed\\play-services-basement-18.1.0\\res\\values-zh-rTW\\values.xml",

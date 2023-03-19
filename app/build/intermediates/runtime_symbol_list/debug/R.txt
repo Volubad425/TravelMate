@@ -2783,8 +2783,10 @@ int drawable design_snackbar_background 0x7f07009e
 int drawable googleg_disabled_color_18 0x7f07009f
 int drawable googleg_standard_color_18 0x7f0700a0
 int drawable ic_arrow_back_black_24 0x7f0700a1
+int drawable ic_basketball 0x7f0700fb
 int drawable ic_clear_black_24 0x7f0700a2
 int drawable ic_clock_black_24dp 0x7f0700a3
+int drawable ic_hotel 0x7f0700fc
 int drawable ic_keyboard_black_24dp 0x7f0700a4
 int drawable ic_launcher_background 0x7f0700a5
 int drawable ic_launcher_foreground 0x7f0700a6
@@ -2795,7 +2797,10 @@ int drawable ic_mtrl_checked_circle 0x7f0700aa
 int drawable ic_mtrl_chip_checked_black 0x7f0700ab
 int drawable ic_mtrl_chip_checked_circle 0x7f0700ac
 int drawable ic_mtrl_chip_close_circle 0x7f0700ad
+int drawable ic_park 0x7f0700fd
+int drawable ic_restaurant 0x7f0700fa
 int drawable ic_search_black_24 0x7f0700ae
+int drawable ic_shopping_cart 0x7f0700fe
 int drawable m3_appbar_background 0x7f0700af
 int drawable m3_avd_hide_password 0x7f0700b0
 int drawable m3_avd_show_password 0x7f0700b1
@@ -2967,7 +2972,7 @@ int id beginning 0x7f08005c
 int id bestChoice 0x7f08005d
 int id blocking 0x7f08005e
 int id bottom 0x7f08005f
-int id bottomNav 0x7f080060
+int id bottom_nav 0x7f0801fd
 int id bounce 0x7f080061
 int id bounceBoth 0x7f080062
 int id bounceEnd 0x7f080063
@@ -3012,6 +3017,7 @@ int id custom 0x7f080089
 int id customPanel 0x7f08008a
 int id cut 0x7f08008b
 int id dark 0x7f08008c
+int id dataBinding 0x7f0801fe
 int id date_picker_actions 0x7f08008d
 int id decelerate 0x7f08008e
 int id decelerateAndComplete 0x7f08008f
@@ -3198,6 +3204,8 @@ int id notification_main_column 0x7f080144
 int id notification_main_column_container 0x7f080145
 int id off 0x7f080146
 int id on 0x7f080147
+int id onAttachStateChangeListener 0x7f0801ff
+int id onDateChanged 0x7f080200
 int id onInterceptTouchReturnSwipe 0x7f080148
 int id outline 0x7f080149
 int id outward 0x7f08014a
@@ -3330,6 +3338,7 @@ int id textSpacerNoButtons 0x7f0801c8
 int id textSpacerNoTitle 0x7f0801c9
 int id textStart 0x7f0801ca
 int id textTop 0x7f0801cb
+int id textWatcher 0x7f080201
 int id text_input_end_icon 0x7f0801cc
 int id text_input_error_icon 0x7f0801cd
 int id text_input_start_icon 0x7f0801ce
@@ -3631,6 +3640,7 @@ int string error_icon_content_description 0x7f10003b
 int string exposed_dropdown_menu_content_description 0x7f10003c
 int string fab_transformation_scrim_behavior 0x7f10003d
 int string fab_transformation_sheet_behavior 0x7f10003e
+int string google_maps_key 0x7f1000ae
 int string hide_bottom_view_on_scroll_behavior 0x7f10003f
 int string icon_content_description 0x7f100040
 int string item_view_role_description 0x7f100041

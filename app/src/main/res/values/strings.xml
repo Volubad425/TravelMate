@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TravelMateApp</string>
     <string name="title_activity_maps">Travel Mate</string>
+    <string name="google_maps_key">AIzaSyCy8poguEHK_gbd9J1E_JAJ6pPR2Mtp9pg</string>
 </resources>
