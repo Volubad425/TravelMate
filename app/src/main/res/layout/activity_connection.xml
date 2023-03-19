@@ -79,7 +79,7 @@
                 android:id="@+id/btnConnexion"
                 style="@style/buttonPerso"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="48dp"
                 android:text="@string/connection"
                 app:layout_constraintBottom_toBottomOf="parent" />
         </androidx.cardview.widget.CardView>

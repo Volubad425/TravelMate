@@ -19,7 +19,7 @@
             android:id="@+id/seConnecter"
             style="@style/buttonPerso"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:text="@string/connecter"
             tools:layout_editor_absoluteX="14dp"
             tools:layout_editor_absoluteY="57dp" />
@@ -37,7 +37,7 @@
             android:id="@+id/sInscrire"
             style="@style/buttonPerso"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:text="@string/inscrire"
             tools:layout_editor_absoluteX="14dp"
             tools:layout_editor_absoluteY="57dp" />
