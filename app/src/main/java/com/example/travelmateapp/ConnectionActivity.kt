@@ -6,37 +6,43 @@ import android.util.Patterns
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.travelmateapp.databinding.ActivityConnectionBinding
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class ConnectionActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityConnectionBinding
-    private val pass = "a"
+    private lateinit var firebaseAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityConnectionBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        firebaseAuth = FirebaseAuth.getInstance()
 
         binding.btnConnexion.setOnClickListener {
             val mail = binding.addressMail.text.toString()
             val mdp = binding.motDePasse.text.toString()
 
-            if(mail.isEmpty()){
-                Toast.makeText(this, R.string.mail_vide, Toast.LENGTH_SHORT).show()
+            if (mail.isNotEmpty() && mdp.isNotEmpty()) {
+
+                firebaseAuth.signInWithEmailAndPassword(mail, mdp).addOnCompleteListener {
+                    if (it.isSuccessful) {
+                        Toast.makeText(this, "Vous étes connectés !", Toast.LENGTH_SHORT).show()
+                        val intent = Intent(this, MapsActivity::class.java)
+                        startActivity(intent)
+
+                    } else {
+                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+
+                    }
+                }
+            } else {
+                Toast.makeText(this, "Empty Fields Are not Allowed !!", Toast.LENGTH_SHORT).show()
+
             }
-            /*else if(!isMailValid(mail)){
-                Toast.makeText(this, "veuillez ajouter un email valide", Toast.LENGTH_SHORT).show()
-            }*/
-            else if(mdp.isEmpty()){
-                Toast.makeText(this, R.string.password_vide, Toast.LENGTH_SHORT).show()
-            }
-            else if (mdp == pass && mail == pass){
-                val intent = Intent(this, MapsActivity::class.java)
-                startActivity(intent)
-            }
-            else{
-                Toast.makeText(this, R.string.non_compte, Toast.LENGTH_SHORT).show()
-            }
+
         }
 
         binding.mdpOublie.setOnClickListener {
@@ -51,4 +57,6 @@ class ConnectionActivity : AppCompatActivity() {
     private fun isMailValid(mail: String): Boolean {
         return Patterns.EMAIL_ADDRESS.matcher(mail).matches()
     }
+
+
 }

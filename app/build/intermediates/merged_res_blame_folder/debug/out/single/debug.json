@@ -1,202 +1,218 @@
 [
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-anydpi-v33\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-hdpi_ic_basketball.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-hdpi\\ic_basketball.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-xxhdpi_ic_restaurant.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-xxhdpi\\ic_restaurant.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-xxhdpi_ic_basketball.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-xxhdpi\\ic_basketball.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-mdpi_ic_hotel.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-mdpi\\ic_hotel.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\menu_bottom_menu.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\menu\\bottom_menu.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\layout_activity_reset_password.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\layout\\activity_reset_password.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-mdpi_ic_restaurant.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-mdpi\\ic_restaurant.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\layout_activity_maps.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\layout\\activity_maps.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\layout_activity_inscription.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\layout\\activity_inscription.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-hdpi_ic_shopping_cart.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-hdpi\\ic_shopping_cart.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-xhdpi_ic_restaurant.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-xhdpi\\ic_restaurant.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable_baseline_sports_basketball_24.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable\\baseline_sports_basketball_24.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-anydpi_ic_restaurant.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-anydpi\\ic_restaurant.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-xxhdpi_ic_park.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-xxhdpi\\ic_park.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-mdpi_ic_park.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-mdpi\\ic_park.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable_bg_inscription.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable\\bg_inscription.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-mdpi_ic_park.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-mdpi\\ic_park.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-xhdpi_ic_park.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-xhdpi\\ic_park.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-xhdpi_ic_hotel.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-xhdpi\\ic_hotel.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable_baseline_sports_basketball_24.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable\\baseline_sports_basketball_24.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-hdpi_ic_park.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-hdpi\\ic_park.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable_baseline_restaurant_24.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable\\baseline_restaurant_24.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-xxhdpi_ic_shopping_cart.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-xxhdpi\\ic_shopping_cart.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-xxhdpi_ic_shopping_cart.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-xxhdpi\\ic_shopping_cart.png"
+        "merged": "com.example.travelmateapp-merged_res-40:/layout_activity_reset_password.xml.flat",
+        "source": "com.example.travelmateapp-main-42:/layout/activity_reset_password.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable_baseline_shopping_cart_24.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable\\baseline_shopping_cart_24.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-xxhdpi_ic_hotel.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-xxhdpi\\ic_hotel.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-mdpi_ic_basketball.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-mdpi\\ic_basketball.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-anydpi_ic_shopping_cart.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-anydpi\\ic_shopping_cart.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-xxhdpi_ic_basketball.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-xxhdpi\\ic_basketball.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-xhdpi_ic_basketball.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-xhdpi\\ic_basketball.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable_bg_connection.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable\\bg_connection.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-xhdpi_ic_hotel.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-xhdpi\\ic_hotel.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-hdpi_ic_restaurant.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-hdpi\\ic_restaurant.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-xhdpi_ic_shopping_cart.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-xhdpi\\ic_shopping_cart.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable_baseline_park_24.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable\\baseline_park_24.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\layout\\activity_maps.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-anydpi_ic_hotel.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-anydpi\\ic_hotel.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-xxhdpi_ic_park.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-xxhdpi\\ic_park.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-anydpi_ic_basketball.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-anydpi\\ic_basketball.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-hdpi_ic_hotel.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-hdpi\\ic_hotel.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-xhdpi_ic_basketball.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-xhdpi\\ic_basketball.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable_bg_reset_password.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable\\bg_reset_password.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-xhdpi_ic_shopping_cart.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-xhdpi\\ic_shopping_cart.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-mdpi_ic_shopping_cart.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-mdpi\\ic_shopping_cart.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\layout_activity_connection.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\layout\\activity_connection.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable_baseline_shopping_cart_24.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable\\baseline_shopping_cart_24.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-xxhdpi_ic_restaurant.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-xxhdpi\\ic_restaurant.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-mdpi_ic_hotel.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-mdpi\\ic_hotel.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-xhdpi_ic_park.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-xhdpi\\ic_park.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-hdpi_ic_park.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-hdpi\\ic_park.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-hdpi_ic_hotel.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-hdpi\\ic_hotel.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-anydpi_ic_park.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-anydpi\\ic_park.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable_nav_selector.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable\\nav_selector.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-xhdpi_ic_restaurant.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-xhdpi\\ic_restaurant.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-hdpi_ic_restaurant.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-hdpi\\ic_restaurant.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable_bg_home.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable\\bg_home.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-mdpi_ic_shopping_cart.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-mdpi\\ic_shopping_cart.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-mdpi_ic_basketball.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-mdpi\\ic_basketball.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-anydpi-v33\\ic_launcher.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\menu\\bottom_menu.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable-xxhdpi_ic_hotel.png.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable-xxhdpi\\ic_hotel.png"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable_baseline_restaurant_24.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable\\baseline_restaurant_24.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable_baseline_park_24.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable\\baseline_park_24.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-mdpi_ic_restaurant.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-mdpi\\ic_restaurant.png"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable_baseline_hotel_24.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable\\baseline_hotel_24.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\drawable_nav_selector.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\drawable\\nav_selector.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable_baseline_hotel_24.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable\\baseline_hotel_24.xml"
     },
     {
-        "merged": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-37:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ndstj\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-39:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-hdpi_ic_basketball.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-hdpi\\ic_basketball.png"
+    },
+    {
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-merged_res-40:\\drawable-hdpi_ic_shopping_cart.png.flat",
+        "source": "C:\\Users\\sadiy\\.gradle\\daemon\\7.5\\com.example.travelmateapp-main-42:\\drawable-hdpi\\ic_shopping_cart.png"
     }
 ]

@@ -1342,6 +1342,10 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color button_material_dark
 color button_material_light
 color cardview_dark_background
@@ -2039,6 +2043,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen appcompat_dialog_background_inset
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -2749,6 +2755,10 @@ drawable baseline_park_24
 drawable baseline_restaurant_24
 drawable baseline_shopping_cart_24
 drawable baseline_sports_basketball_24
+drawable bg_connection
+drawable bg_home
+drawable bg_inscription
+drawable bg_reset_password
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2948,6 +2958,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addressMail
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2978,6 +2989,14 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
+id btnChangerMdp
+id btnConnexion
+id btnInsription
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3017,6 +3036,8 @@ id currentState
 id custom
 id customPanel
 id cut
+id cv_changer_mdp
+id cv_inscripiton
 id dark
 id dataBinding
 id date_picker_actions
@@ -3106,6 +3127,10 @@ id immediateStop
 id included
 id indeterminate
 id info
+id input_conf_mdp
+id input_mail
+id input_mdp
+id input_pseudo
 id invisible
 id inward
 id italic
@@ -3151,6 +3176,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id mdpOublie
 id message
 id middle
 id mini
@@ -3160,6 +3186,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id motDePasse
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -3218,6 +3245,8 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
+id passwordConfirm
 id password_toggle
 id path
 id pathRelative
@@ -3229,6 +3258,7 @@ id postLayout
 id pressed
 id progress_circular
 id progress_horizontal
+id pseudo
 id radio
 id ratio
 id rectangles
@@ -3240,6 +3270,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id sInscrire
 id satellite
 id save_non_transition_alpha
 id save_overlay_view
@@ -3251,6 +3282,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id seConnecter
 id search_badge
 id search_bar
 id search_bar_text_view
@@ -3339,6 +3371,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -3496,7 +3529,13 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_connection
+layout activity_home
+layout activity_inscription
 layout activity_maps
+layout activity_reset_password
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3578,6 +3617,7 @@ menu bottom_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw firebase_common_keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3605,6 +3645,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string adresse_mail
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3614,6 +3655,7 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string change_mdp
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3636,14 +3678,30 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string conf_mdp
+string connecter
+string connection
+string copy_toast_msg
+string default_web_client_id
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
 string google_maps_key
+string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string inscription
+string inscription_reussie
+string inscrire
 string item_view_role_description
 string m3_sys_motion_easing_emphasized
 string m3_sys_motion_easing_emphasized_accelerate
@@ -3656,6 +3714,8 @@ string m3_sys_motion_easing_linear
 string m3_sys_motion_easing_standard
 string m3_sys_motion_easing_standard_accelerate
 string m3_sys_motion_easing_standard_decelerate
+string mail_invalide
+string mail_vide
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_24h_suffix
@@ -3678,6 +3738,9 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string mdp
+string mdp_change
+string mdp_oublie
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -3740,11 +3803,20 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string new_mdp
+string non_compte
+string password_confirm_invalide
 string password_toggle_content_description
+string password_vide
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string project_id
+string pseudo
+string pseudo_trop_long
+string pseudo_vide
+string reset_password
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -4847,6 +4919,8 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style buttonPerso
+style cardviewBouton
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -5005,3 +5079,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml image_share_filepaths

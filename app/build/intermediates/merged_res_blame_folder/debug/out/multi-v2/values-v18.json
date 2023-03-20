@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.travelmateapp-mergeDebugResources-35:/values-v18/values-v18.xml",
+            "outputFile": "com.example.travelmateapp-mergeDebugResources-38:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ndstj\\.gradle\\caches\\transforms-3\\1b7d3aaee4bf942458fd7a7eae405608\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\sadiy\\.gradle\\caches\\transforms-3\\f054861cbe5543de954f99ca1981ec2f\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -7,12 +7,40 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="adresse_mail">Adresse mail</string>
     <string name="app_name">TravelMateApp</string>
+    <string name="change_mdp">Changer le mot de passe</string>
+    <string name="conf_mdp">Confirmer le mot de passe</string>
+    <string name="connecter">Connexion</string>
+    <string name="connection">Connexion</string>
+    <string name="default_web_client_id" translatable="false">989868976519-0p3na31te7612netl4beau4o03rufsn8.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">989868976519</string>
+    <string name="google_api_key" translatable="false">AIzaSyBvkuTfQ0Mvl9UCOExcwHSZa8WgPrPBGWY</string>
+    <string name="google_app_id" translatable="false">1:989868976519:android:6ec93c016a1a01144a0b22</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBvkuTfQ0Mvl9UCOExcwHSZa8WgPrPBGWY</string>
     <string name="google_maps_key">AIzaSyCy8poguEHK_gbd9J1E_JAJ6pPR2Mtp9pg</string>
+    <string name="google_storage_bucket" translatable="false">travelmateapp-36920.appspot.com</string>
+    <string name="inscription">Inscription</string>
+    <string name="inscription_reussie">L\'inscription a été réussie</string>
+    <string name="inscrire">S\'inscrire</string>
+    <string name="mail_invalide">Le mail est invalide</string>
+    <string name="mail_vide">Remplissez le champ mail</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="mdp_change">"Le mot de passe a été changé"</string>
+    <string name="mdp_oublie">Mot de passe oublié</string>
+    <string name="new_mdp">Nouveau mot de passe</string>
+    <string name="non_compte">Le compte n\'existe pas</string>
+    <string name="password_confirm_invalide">La confirmation du mot de passe est invalide</string>
+    <string name="password_vide">Remplissez le champ mot de passe</string>
+    <string name="project_id" translatable="false">travelmateapp-36920</string>
+    <string name="pseudo">Nom d\'utilisateur</string>
+    <string name="pseudo_trop_long">"Le nom d'utilisateur est trop long "</string>
+    <string name="pseudo_vide">Le nom d\'utilisateur est vide</string>
+    <string name="reset_password">Réinitialiser le mot de passe</string>
     <string name="title_activity_maps">Travel Mate</string>
     <style name="Theme.TravelMateApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         
@@ -22,5 +50,16 @@
         
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         
+    </style>
+    <style name="buttonPerso">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="cardviewBouton">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">10dp</item>
     </style>
 </resources>

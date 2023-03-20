@@ -10,7 +10,7 @@
     <string name="reset_password">Réinitialiser le mot de passe</string>
     <string name="new_mdp">Nouveau mot de passe</string>
     <string name="conf_mdp">Confirmer le mot de passe</string>
-    <string name="change_mdp">Le mot de passe a été changé</string>
+    <string name="change_mdp">Changer le mot de passe</string>
     <string name="inscrire">S\'inscrire</string>
     <string name="pseudo">Nom d\'utilisateur</string>
     <string name="inscription">Inscription</string>
@@ -18,8 +18,9 @@
     <string name="password_vide">Remplissez le champ mot de passe</string>
     <string name="mail_invalide">Le mail est invalide</string>
     <string name="mail_vide">Remplissez le champ mail</string>
-    <string name="mdp_change">" Changer le mot de passe "</string>
+    <string name="mdp_change">"Le mot de passe a été changé"</string>
     <string name="pseudo_vide">Le nom d\'utilisateur est vide</string>
     <string name="pseudo_trop_long">"Le nom d'utilisateur est trop long "</string>
     <string name="inscription_reussie">L\'inscription a été réussie</string>
+    <string name="non_compte">Le compte n\'existe pas</string>
 </resources>
