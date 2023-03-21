@@ -43,7 +43,7 @@
                 android:background="@android:color/transparent"
                 android:hint="@string/adresse_mail"
                 android:textColor="@color/white"
-                android:inputType="text" />
+                android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
